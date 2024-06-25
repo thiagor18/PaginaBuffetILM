@@ -28,7 +28,7 @@ mysqli_query($conn, $c3);
 
 
 echo $_SESSION['rta'] = 'Contraseña actualizada satisfactoriamente, ya se puede loguear';
-//header("Location: ../9.5/index.php");
+echo "<script>alert('Contraseña actualizada satisfactoriamente, ya se puede loguear.'); window.location.href='login.php';</script>";
 
 
 ?>
