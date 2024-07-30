@@ -13,7 +13,7 @@ if( ! $a ){
 	//header("Location: ../);
 	die( );
 }
-
+//ooo
 //OBTENEMOS LA CLAVE Y ACTUALIZAMOS AL USUARIO
 $clave = $a['CLAVE_NUEVA'];
 //$clave_=sha1($clave);
